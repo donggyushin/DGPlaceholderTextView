@@ -26,7 +26,6 @@ pod 'DGPlaceholderTextView', :git => 'https://github.com/donggyushin/DGPlacehold
 ```
 let placeholderTextView = DGPlaceholderTextView()
 placeholderTextView.placeholder = "This is place holder text"
-placeholderTextView.font = .systemFont(ofSize: 20)
 ```
 
 
