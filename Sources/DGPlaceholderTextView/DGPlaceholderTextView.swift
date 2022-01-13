@@ -41,6 +41,7 @@ public class DGPlaceholderTextView: UITextView {
     }
     
     private func configureUI() {
+        placeholderLabel.textColor = .gray
         addSubview(placeholderLabel)
         placeholderLabel.translatesAutoresizingMaskIntoConstraints = false
         placeholderLabel.topAnchor.constraint(equalTo: topAnchor, constant: verticalPadding).isActive = true
