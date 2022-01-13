@@ -41,6 +41,7 @@ public class DGPlaceholderTextView: UITextView {
     }
     
     private func configureUI() {
+        font = .systemFont(ofSize: 17)
         placeholderLabel.textColor = .gray
         addSubview(placeholderLabel)
         placeholderLabel.translatesAutoresizingMaskIntoConstraints = false
