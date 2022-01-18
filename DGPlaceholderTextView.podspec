@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "DGPlaceholderTextView"
-    s.version          = "1.0.0"
+    s.version          = "1.0.2"
     s.summary          = "A light-weight UITextView that supports for placeholder."
     s.homepage         = "https://github.com/donggyushin/DGPlaceholderTextView"
     s.license          = 'MIT'
