@@ -1,3 +1,9 @@
+1. [DGPlaceholderTextView](#DGPlaceholderTextView)
+2. [Requirements](#Requirements)
+3. [Installation](#Installation)
+4. [Usage](#Usage)
+5. [Properties](#Properties)
+
 # DGPlaceholderTextView
 A light-weight UITextView that supports for placeholder.
 
@@ -26,7 +32,6 @@ pod 'DGPlaceholderTextView', :git => 'https://github.com/donggyushin/DGPlacehold
 ```
 let placeholderTextView = DGPlaceholderTextView()
 placeholderTextView.placeholder = "This is place holder text"
-placeholderTextView.font = .systemFont(ofSize: 20)
 ```
 
 
